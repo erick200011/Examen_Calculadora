@@ -565,6 +565,29 @@
           <text value=""/>
         </properties>
       </component>
+      <component id="8fce0" class="javax.swing.JButton" binding="CeBT">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-11447210"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="C"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>

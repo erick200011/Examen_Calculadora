@@ -33,6 +33,7 @@ public class calculadora1 extends JFrame{
     private JButton sumBT;
     private JButton resBT;
     private JButton igualBT;
+    private JButton CeBT;
 
     //creacion de funcionalidades de los botones
     public calculadora1() {
@@ -176,6 +177,13 @@ public class calculadora1 extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
 
+            }
+        });
+        CeBT.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String texto=Operaciotxt.getText().substring(0,Operaciotxt.getText().length()-1);
+                Operaciotxt.setText(texto);
             }
         });
     }
