@@ -1,7 +1,7 @@
 //Importacion de Librerias Necesarias
 import javax.swing.*;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;//IMPORTACION DE LIBRERIAS
+import java.awt.event.ActionListener;
 import java.awt.event.ComponentAdapter;
 
 public class calculadora1 extends JFrame{
@@ -202,6 +202,6 @@ public class calculadora1 extends JFrame{
     public void añadirNumero(String digito){
         Operaciotxt.setText(Operaciotxt.getText()+digito);
     }
-    
+
 
 }
