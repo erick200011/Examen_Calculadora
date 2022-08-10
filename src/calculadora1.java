@@ -150,19 +150,19 @@ public class calculadora1 extends JFrame{
         senoBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                añadirNumero("Sen(");
+                añadirNumero("Sen");
             }
         });
         cosBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                añadirNumero("Cos(");
+                añadirNumero("Cos");
             }
         });
         tanBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                añadirNumero("Tan(");
+                añadirNumero("Tan");
             }
         });
         exponBT.addActionListener(new ActionListener() {
@@ -175,7 +175,7 @@ public class calculadora1 extends JFrame{
         igualBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-             
+
             }
         });
     }
