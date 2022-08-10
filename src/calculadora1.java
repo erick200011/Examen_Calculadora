@@ -283,6 +283,7 @@ public class calculadora1 extends JFrame{
         frame.setSize(475,780);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setVisible(true);
+        frame.setLocationRelativeTo(null);
 
     }
 
