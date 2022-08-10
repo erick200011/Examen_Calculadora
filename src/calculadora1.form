@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="calculadora1">
-  <grid id="27dc6" layout-manager="GridBagLayout">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
     <constraints>
-      <xy x="20" y="20" width="934" height="1000"/>
+      <xy x="20" y="20" width="492" height="535"/>
     </constraints>
     <properties>
       <background color="-918273"/>
@@ -24,27 +24,27 @@
         </properties>
         <border type="none"/>
         <children>
-          <component id="d1bf1" class="javax.swing.JLabel">
+          <component id="d1bf1" class="javax.swing.JLabel" binding="Operaciotxt">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <font name="Berlin Sans FB Demi" size="16"/>
-              <text value="1511*651"/>
+              <font name="Berlin Sans FB Demi" size="24"/>
+              <text value=""/>
             </properties>
           </component>
-          <component id="faed6" class="javax.swing.JLabel">
+          <component id="faed6" class="javax.swing.JLabel" binding="Resultadotxt">
             <constraints>
               <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
               <font name="Berlin Sans FB Demi" size="50"/>
-              <text value="125"/>
+              <text value=""/>
             </properties>
           </component>
         </children>
       </grid>
-      <component id="3b1ca" class="javax.swing.JButton" default-binding="true">
+      <component id="3b1ca" class="javax.swing.JButton" binding="sumResBT">
         <constraints>
           <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -65,7 +65,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="290d8" class="javax.swing.JButton" default-binding="true">
+      <component id="290d8" class="javax.swing.JButton" binding="DivBT">
         <constraints>
           <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -87,7 +87,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="36c8c" class="javax.swing.JButton" default-binding="true">
+      <component id="36c8c" class="javax.swing.JButton" binding="mulBT">
         <constraints>
           <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="0.0"/>
@@ -108,7 +108,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="54a53" class="javax.swing.JButton" default-binding="true">
+      <component id="54a53" class="javax.swing.JButton" binding="sumBT">
         <constraints>
           <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="0.0"/>
@@ -129,7 +129,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="9fbe8" class="javax.swing.JButton" default-binding="true">
+      <component id="9fbe8" class="javax.swing.JButton" binding="resBT">
         <constraints>
           <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="0.0"/>
@@ -150,7 +150,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="40984" class="javax.swing.JButton" default-binding="true">
+      <component id="40984" class="javax.swing.JButton" binding="igualBT">
         <constraints>
           <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="0.0"/>
@@ -194,7 +194,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="8501d" class="javax.swing.JButton" default-binding="true">
+      <component id="8501d" class="javax.swing.JButton" binding="sieteBT">
         <constraints>
           <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -215,7 +215,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="a0b7" class="javax.swing.JButton" default-binding="true">
+      <component id="a0b7" class="javax.swing.JButton" binding="ochoBT">
         <constraints>
           <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -236,7 +236,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="66346" class="javax.swing.JButton" default-binding="true">
+      <component id="66346" class="javax.swing.JButton" binding="nueveBT">
         <constraints>
           <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -257,7 +257,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="f82e6" class="javax.swing.JButton" default-binding="true">
+      <component id="f82e6" class="javax.swing.JButton" binding="cuatroBT">
         <constraints>
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -278,7 +278,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="d6890" class="javax.swing.JButton" default-binding="true">
+      <component id="d6890" class="javax.swing.JButton" binding="cincoBT">
         <constraints>
           <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -299,7 +299,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="594c1" class="javax.swing.JButton" default-binding="true">
+      <component id="594c1" class="javax.swing.JButton" binding="seisBT">
         <constraints>
           <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -320,7 +320,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="ad601" class="javax.swing.JButton" default-binding="true">
+      <component id="ad601" class="javax.swing.JButton" binding="unoBT">
         <constraints>
           <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -341,7 +341,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="e3b2b" class="javax.swing.JButton" default-binding="true">
+      <component id="e3b2b" class="javax.swing.JButton" binding="dosBT">
         <constraints>
           <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -362,7 +362,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="a3bde" class="javax.swing.JButton" default-binding="true">
+      <component id="a3bde" class="javax.swing.JButton" binding="tresBT">
         <constraints>
           <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -392,7 +392,7 @@
           <text value="     "/>
         </properties>
       </component>
-      <component id="d5315" class="javax.swing.JButton" default-binding="true">
+      <component id="d5315" class="javax.swing.JButton" binding="porcenBT">
         <constraints>
           <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -413,7 +413,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="36531" class="javax.swing.JButton" default-binding="true">
+      <component id="36531" class="javax.swing.JButton" binding="senoBT">
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -436,7 +436,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="d055c" class="javax.swing.JButton" default-binding="true">
+      <component id="d055c" class="javax.swing.JButton" binding="cosBT">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -459,7 +459,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="3b212" class="javax.swing.JButton" default-binding="true">
+      <component id="3b212" class="javax.swing.JButton" binding="tanBT">
         <constraints>
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -482,7 +482,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="ca6a4" class="javax.swing.JButton" default-binding="true">
+      <component id="ca6a4" class="javax.swing.JButton" binding="exponBT">
         <constraints>
           <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -505,7 +505,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="fba67" class="javax.swing.JButton" default-binding="true">
+      <component id="fba67" class="javax.swing.JButton" binding="ceroBT">
         <constraints>
           <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
@@ -526,7 +526,7 @@
           <visible value="true"/>
         </properties>
       </component>
-      <component id="81ac" class="javax.swing.JButton" default-binding="true">
+      <component id="81ac" class="javax.swing.JButton" binding="puntoBT">
         <constraints>
           <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="1.0" weighty="1.0"/>
