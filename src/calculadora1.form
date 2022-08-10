@@ -5,7 +5,8 @@
       <xy x="20" y="20" width="492" height="535"/>
     </constraints>
     <properties>
-      <background color="-918273"/>
+      <background color="-14732465"/>
+      <foreground color="-8062721"/>
       <minimumSize width="300" height="500"/>
       <preferredSize width="450" height="780"/>
     </properties>
@@ -20,7 +21,7 @@
           <gridbag weightx="1.0" weighty="1.0"/>
         </constraints>
         <properties>
-          <background color="-1704711"/>
+          <background color="-15587774"/>
         </properties>
         <border type="none"/>
         <children>
@@ -30,6 +31,7 @@
             </constraints>
             <properties>
               <font name="Berlin Sans FB Demi" size="24"/>
+              <foreground color="-16343665"/>
               <text value=""/>
             </properties>
           </component>
@@ -39,6 +41,7 @@
             </constraints>
             <properties>
               <font name="Berlin Sans FB Demi" size="50"/>
+              <foreground color="-16343665"/>
               <text value="250"/>
             </properties>
           </component>
@@ -48,6 +51,7 @@
             </constraints>
             <properties>
               <font name="Arial Rounded MT Bold" size="48"/>
+              <foreground color="-16343665"/>
               <text value="   ="/>
             </properties>
           </component>
@@ -64,9 +68,9 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-16343665"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt01.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="±"/>
@@ -85,11 +89,11 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-16343665"/>
           <hideActionText value="true"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
-          <requestFocusEnabled value="true"/>
+          <icon value="imagenes/bt01.png"/>
+          <requestFocusEnabled value="false"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="/"/>
           <verifyInputWhenFocusTarget value="true"/>
@@ -107,9 +111,9 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-16343665"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt01.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="x"/>
@@ -128,9 +132,9 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-16343665"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt01.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="+"/>
@@ -149,9 +153,9 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-16343665"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt01.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="-"/>
@@ -186,16 +190,16 @@
           <gridbag weightx="1.0" weighty="1.0"/>
         </constraints>
         <properties>
-          <background color="-11447210"/>
+          <background color="-16343665"/>
           <borderPainted value="false"/>
           <contentAreaFilled value="false"/>
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-16343665"/>
           <hideActionText value="false"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt01.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="C"/>
@@ -214,9 +218,9 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-918273"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt02.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="7"/>
@@ -235,9 +239,9 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-918273"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt02.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="8"/>
@@ -256,9 +260,9 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-918273"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt02.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="9"/>
@@ -277,9 +281,9 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-918273"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt02.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="4"/>
@@ -298,9 +302,9 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-918273"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt02.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="5"/>
@@ -319,9 +323,9 @@
           <focusPainted value="false"/>
           <focusable value="true"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-918273"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt02.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="6"/>
@@ -340,9 +344,9 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-918273"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt02.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="1"/>
@@ -361,9 +365,9 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-918273"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt02.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="2"/>
@@ -382,23 +386,14 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-918273"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt02.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="3"/>
           <verifyInputWhenFocusTarget value="true"/>
           <visible value="true"/>
-        </properties>
-      </component>
-      <component id="dfe00" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-          <gridbag weightx="0.0" weighty="0.0"/>
-        </constraints>
-        <properties>
-          <text value="     "/>
         </properties>
       </component>
       <component id="d5315" class="javax.swing.JButton" binding="porcenBT">
@@ -412,9 +407,9 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-16343665"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt01.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="%"/>
@@ -428,16 +423,16 @@
           <gridbag weightx="1.0" weighty="1.0"/>
         </constraints>
         <properties>
-          <background color="-11447210"/>
+          <background color="-15587774"/>
           <borderPainted value="false"/>
           <contentAreaFilled value="false"/>
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-16343665"/>
           <hideActionText value="false"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt01.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="SEN"/>
@@ -457,10 +452,10 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-918273"/>
           <hideActionText value="false"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt02.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="COS"/>
@@ -480,10 +475,10 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-918273"/>
           <hideActionText value="false"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt02.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="TAN"/>
@@ -503,10 +498,10 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-918273"/>
           <hideActionText value="false"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt02.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="^"/>
@@ -525,9 +520,9 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-918273"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt02.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="0"/>
@@ -546,9 +541,9 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="48"/>
-          <foreground color="-12040120"/>
+          <foreground color="-918273"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt02.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="."/>
@@ -586,10 +581,10 @@
           <focusPainted value="false"/>
           <focusable value="false"/>
           <font name="Arial Narrow" size="28"/>
-          <foreground color="-12040120"/>
+          <foreground color="-918273"/>
           <hideActionText value="false"/>
           <horizontalTextPosition value="0"/>
-          <icon value="imagenes/bt.png"/>
+          <icon value="imagenes/bt02.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
           <text value="CE"/>

@@ -193,7 +193,7 @@ public class calculadora1 extends JFrame{
         JFrame frame=new JFrame("Calculadora");
         frame.setContentPane(new calculadora1().mainPanel);
         frame.setTitle("Welcome");
-        frame.setSize(475,550);
+        frame.setSize(475,780);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setVisible(true);
 
