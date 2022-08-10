@@ -208,7 +208,7 @@ public class calculadora1 extends JFrame{
                 Operaciotxt.setText("");
             }
         });
-
+//Operaciones Matematicas a Realizar
         igualBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
