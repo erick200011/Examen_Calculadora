@@ -1,5 +1,4 @@
-import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager;
+//Importacion de Librerias Necesarias
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;//IMPORTACION DE LIBRERIAS
@@ -203,8 +202,6 @@ public class calculadora1 extends JFrame{
     public void añadirNumero(String digito){
         Operaciotxt.setText(Operaciotxt.getText()+digito);
     }
-
-    ScriptEngineManager sem=new ScriptEngineManager();
-    ScriptEngine se=sem.getEngineByName("JavaScript");
+    
 
 }
