@@ -212,7 +212,7 @@ public class calculadora1 extends JFrame{
         igualBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                //Manejo de Jlabel para el manejo de informacion
                 segundoNumero=Float.parseFloat(Operaciotxt.getText());
                 switch (operador){
                     case "+":
