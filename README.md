@@ -26,3 +26,22 @@ La siguiente imagen muestra como es el codigo que se ha implementado:
 ![image](https://user-images.githubusercontent.com/75103508/183821614-3e7cce23-87bf-4dd0-919c-d64de5bd23b2.png)
 ![image](https://user-images.githubusercontent.com/75103508/183821634-c489e084-d6e4-48f6-b1b9-5c6cd7239cb6.png)
 ![image](https://user-images.githubusercontent.com/75103508/183821653-40a0f768-a7e6-438c-973b-c034b6276493.png)
+
+Nota: no se pudo concatenar las operaciones '+,-,*,/,^,±,cos,se,tan' pero al pulsar 'sen,tan,cos' no se escribira pero al digitar el numero savara su respectica funcion, lo mismo para en el caso de las cariables, se pulsa un numero mas la varieble que no se muestra en pantalla seguida de otro numero reralizara la operacion
+
+Para '+,-,*,/,^,±':
+
+Se digita el numero:
+
+![image](https://user-images.githubusercontent.com/75103508/183851057-42f8611a-2ea4-464f-9547-718ffd648419.png)
+
+
+se  selecciona la operacion:
+
+![image](https://user-images.githubusercontent.com/75103508/183851177-f1fa6e5c-e188-4464-b271-b3d0ec71cec5.png)
+
+se limpia la pantalla y seguido digitamos el siguiente numero y pulsamo igual:
+
+![image](https://user-images.githubusercontent.com/75103508/183851358-ebd96ad0-1c84-4497-9cbb-e8289615716b.png)
+
+
