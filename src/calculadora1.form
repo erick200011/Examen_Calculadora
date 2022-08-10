@@ -587,7 +587,7 @@
           <icon value="imagenes/bt02.png"/>
           <requestFocusEnabled value="true"/>
           <rolloverIcon value="imagenes/bt_press.png"/>
-          <text value="CE"/>
+          <text value="←"/>
           <verifyInputWhenFocusTarget value="true"/>
           <visible value="true"/>
         </properties>
