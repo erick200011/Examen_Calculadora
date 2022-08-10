@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="calculadora1">
+  <grid id="27dc6" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="934" height="1000"/>
+    </constraints>
+    <properties>
+      <background color="-918273"/>
+      <minimumSize width="300" height="500"/>
+      <preferredSize width="450" height="780"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="cb95e" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="24" height="278"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-983813"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d1bf1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB Demi" size="16"/>
+              <text value="1511*651"/>
+            </properties>
+          </component>
+          <component id="faed6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB Demi" size="50"/>
+              <text value="125"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="3b1ca" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="±"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="290d8" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <hideActionText value="true"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="/"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="36c8c" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="x"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="54a53" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="+"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="9fbe8" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="-"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="40984" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-918273"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt-igual.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt-igual_press.png"/>
+          <text value="="/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="430b6" class="javax.swing.JButton" binding="cButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-11447210"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="C"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="8501d" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="7"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="a0b7" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="8"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="66346" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="9"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="f82e6" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="4"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="d6890" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="5"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="594c1" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="true"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="6"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="ad601" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="1"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="e3b2b" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="2"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="a3bde" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="3"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="dfe00" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="     "/>
+        </properties>
+      </component>
+      <component id="d5315" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="%"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="36531" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-11447210"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="SEN"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="d055c" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-11447210"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="COS"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="3b212" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-11447210"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="TAN"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="ca6a4" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-11447210"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="^"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="fba67" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="28"/>
+          <foreground color="-12040120"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="0"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="81ac" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Narrow" size="48"/>
+          <foreground color="-12040120"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="imagenes/bt.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverIcon value="imagenes/bt_press.png"/>
+          <text value="."/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
