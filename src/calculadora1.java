@@ -1,6 +1,6 @@
 //Calculadora Cientifica
 //POO EPN
-
+//Erick Palomo, Kevin Moreno, Martin Rosero
 
 //Importacion de Librerias Necesarias
 import javax.swing.*;
