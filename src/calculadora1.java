@@ -175,14 +175,7 @@ public class calculadora1 extends JFrame{
         igualBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                try {
-                    String resultado= se.eval(Operaciotxt.getText()).toString();
-                    Resultadotxt.setText(resultado);
-                }
-                catch (Exception d){
-                    System.out.println("XD");
-
-                }
+             
             }
         });
     }
