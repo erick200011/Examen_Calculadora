@@ -35,6 +35,11 @@ public class calculadora1 extends JFrame{
     private JButton igualBT;
     private JButton CeBT;
 
+    float primerNumero;
+    float segundoNumero;
+    String operador;
+
+
     //creacion de funcionalidades de los botones
     public calculadora1() {
         cButton.addActionListener(new ActionListener() {
@@ -113,7 +118,10 @@ public class calculadora1 extends JFrame{
         resBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                añadirNumero("-");
+                //añadirNumero("-");
+                primerNumero=Float.parseFloat(Operaciotxt.getText());
+                operador="-";
+                Operaciotxt.setText("");
             }
         });
         sumBT.addComponentListener(new ComponentAdapter() {
@@ -121,61 +129,141 @@ public class calculadora1 extends JFrame{
         sumBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                añadirNumero("+");
+                //añadirNumero("+");
+
+                primerNumero=Float.parseFloat(Operaciotxt.getText());
+                operador="+";
+                Operaciotxt.setText("");
+
+
             }
         });
         mulBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                añadirNumero("*");
+                //añadirNumero("*");
+                primerNumero=Float.parseFloat(Operaciotxt.getText());
+                operador="*";
+                Operaciotxt.setText("");
             }
         });
         DivBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                añadirNumero("/");
+                //añadirNumero("/");
+                primerNumero=Float.parseFloat(Operaciotxt.getText());
+                operador="/";
+                Operaciotxt.setText("");
             }
         });
         porcenBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                añadirNumero("%");
+                //añadirNumero("%");
+                primerNumero=Float.parseFloat(Operaciotxt.getText());
+                operador="%";
+                Operaciotxt.setText("");
             }
         });
         sumResBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                añadirNumero("±");
+                //añadirNumero("±");
+                primerNumero=Float.parseFloat(Operaciotxt.getText());
+                operador="±";
+                Operaciotxt.setText("");
             }
         });
         senoBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                añadirNumero("Sen");
+                //añadirNumero("Sen");
+
+                operador="Sen";
+                Operaciotxt.setText("");
             }
         });
         cosBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                añadirNumero("Cos");
+                //añadirNumero("Cos");
+
+                operador="Cos";
+                Operaciotxt.setText("");
             }
         });
         tanBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                añadirNumero("Tan");
+                //añadirNumero("Tan");
+                operador="Tan";
+                Operaciotxt.setText("");
             }
         });
         exponBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                añadirNumero("^");
+                //añadirNumero("^");
+                primerNumero=Float.parseFloat(Operaciotxt.getText());
+                operador="^";
+                Operaciotxt.setText("");
             }
         });
 
         igualBT.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                segundoNumero=Float.parseFloat(Operaciotxt.getText());
+                switch (operador){
+                    case "+":
+                        Resultadotxt.setText(Float.toString(primerNumero+segundoNumero));
+                        Operaciotxt.setText("");
+                        break;
+                    case "-":
+                        Resultadotxt.setText(Float.toString(primerNumero-segundoNumero));
+                        Operaciotxt.setText("");
+                        break;
+                    case "*":
+                        Resultadotxt.setText(Float.toString(primerNumero*segundoNumero));
+                        Operaciotxt.setText("");
+                        break;
+                    case "/":
+                        if(segundoNumero==0){
+                            Operaciotxt.setText("");
+                        }
+                        else{
+                            Resultadotxt.setText(Float.toString(primerNumero/segundoNumero));
+                            Operaciotxt.setText("");
+                        }
+                        break;
+
+                    case "%":
+                        Resultadotxt.setText(Float.toString((primerNumero*segundoNumero)/100));
+                        Operaciotxt.setText("");
+                        break;
+                    case "±":
+                        Resultadotxt.setText(Float.toString(primerNumero+segundoNumero));
+                        Resultadotxt.setText(Float.toString(primerNumero-segundoNumero));
+                        Operaciotxt.setText("");
+                        break;
+                    case "Sen":
+                        Resultadotxt.setText(Double.toString(Math.sin(segundoNumero)));
+                        Operaciotxt.setText("");
+                        break;
+                    case "Cos":
+                        Resultadotxt.setText(Double.toString(Math.cos(segundoNumero)));
+                        Operaciotxt.setText("");
+                        break;
+                    case "Tan":
+                        Resultadotxt.setText(Double.toString(Math.tan(segundoNumero)));
+                        Operaciotxt.setText("");
+                        break;
+                    case "^":
+                        Resultadotxt.setText(Double.toString(Math.pow(primerNumero,segundoNumero)));
+                        Operaciotxt.setText("");
+                        break;
+                }
 
             }
         });
