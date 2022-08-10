@@ -1,4 +1,6 @@
-//Calculadora Cientifica 
+//Calculadora Cientifica
+//POO EPN
+
 
 //Importacion de Librerias Necesarias
 import javax.swing.*;
